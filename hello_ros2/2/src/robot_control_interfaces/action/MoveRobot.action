@@ -1,0 +1,11 @@
+# Goal:
+float32 distance
+---
+#result:
+float32 pose
+---
+#Feedback:
+float32 pose
+uint32 status
+uint32 STATUS_MOVING = 3
+uint32 STATUS_STOP = 4
